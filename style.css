@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -61,42 +63,77 @@ nav ul li {
 
 nav {
 	margin:100px;
+	background-color:grey;
+
 }
 nav ul li a {
 	display: block;
-	background-color: blue;
-	color: #fff;
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
-	width: 150px;
+	width:auto;
 	padding: 20px 50px 20px 40px;
 	border-radius: 10px;
+	color:white;
+
+
+}
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+header {
+  align-content: center;
 
 }
 h1 {
+	font-family: 'Rozha One', serif;
 	font-size: 72px;
-	color: blue;
+	color: black;
 	text-align: center;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size:50px;
+
+}
+
+#Desmend {
+	margin-bottom: 10px;
+
 }
 
 #box1 {
 	padding: 40px;
 	font-size: 30px;
-	border-color: blue;
+	border-color: white;
 	border-style: dotted;
-	background-color: grey;
+	margin-bottom: auto;
+	margin-top: auto;
+	background-color: black;
+	color:white;
 }
 
 footer {
+	margin-top:40px;
 	font-family: sans-serif;
 	font-size: 20px
+}
+
+footer img {
+	display: inline-block;
 }
 #col {
   moz-column-count: 2;
   webkit-column-count: 2;
   column-count: 2;
 }
+
 #video {
-  float: right;	
-	 }
+  float: right;
+}
+
+#photo {
+		display: inline-block;
+}
