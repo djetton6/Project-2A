@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Rozha+One');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -79,11 +81,6 @@ nav {
 	  list-style: none;
 	}
 
-@import url('https://fonts.googleapis.com/css?family=Rozha+One');
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-
-
 header {
   align-content: center;
 
@@ -158,9 +155,6 @@ footer {
 
 footer img {
 	display: inline-block;
-}
-#col {
-  moz-column-count: 2;
 }
 
 #photo {
